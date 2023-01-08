@@ -52,7 +52,7 @@ public class MainLayout extends AppLayout {
         // For documentation, visit https://github.com/vaadin/vcf-nav#readme
         AppNav nav = new AppNav();
 
-        nav.addItem(new AppNavItem("Empty", EmptyView.class, "la la-columns"));
+        nav.addItem(new AppNavItem("Verifikasi Antrian", EmptyView.class, "la la-list-ul"));
 
         return nav;
     }
