@@ -4,6 +4,7 @@ package com.example.application.views;
 import com.example.application.components.appnav.AppNav;
 import com.example.application.components.appnav.AppNavItem;
 import com.example.application.views.empty.EmptyView;
+import com.example.application.views.setting.SettingView;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
 import com.vaadin.flow.component.html.Footer;
@@ -53,7 +54,7 @@ public class MainLayout extends AppLayout {
         AppNav nav = new AppNav();
 
         nav.addItem(new AppNavItem("Verifikasi Antrian", EmptyView.class, "la la-list-ul"));
-
+        nav.addItem(new AppNavItem("Setting", SettingView.class, "la la-cog"));
         return nav;
     }
 
